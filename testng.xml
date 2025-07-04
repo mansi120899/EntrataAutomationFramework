@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/LENOVO/IdeaProjects/EntrataAutomation">
+        <classes>
+            <class name="com.entrata.tests.Test01_Homepage">
+                <methods>
+                    <include name="test_entrataHomePageHeading"/>
+                </methods>
+            </class>
+            <class name="com.entrata.tests.Test02_AI_AutomationForm">
+                <methods>
+                    <include name="productsAutomationForm"/>
+                </methods>
+            </class>
+            <class name="com.entrata.tests.Test03_SolutionsPage">
+                <methods>
+                    <include name="solutionPageNavigation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
