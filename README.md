@@ -7,6 +7,6 @@
 - Thread Local Support → Thread Safety
 - Allure Report
 - Read the username and password and other info from Properties-
-- TestNG, @Test, Before and After Method.
+- TestNG, @Test, Before and After Method
 - Listeners, Screenshots and Log4j
 - Run Local
